@@ -9,7 +9,7 @@ import render4 from "../assets/images/Kaira/Kaira4.webp";
 import render5 from "../assets/images/Kaira/Kaira5.webp";
 import render6 from "../assets/images/Kaira/Kaira6.webp";
 import render7 from "../assets/images/Kaira/Kaira1.webp";
-import site1 from "../assets/images/Kaira/Kaira-site1.webp";
+import site1 from "../assets/images/Kaira/kaira-site1.webp";
 import site2 from "../assets/images/Kaira/kaira-site2.webp";
 import site3 from "../assets/images/Kaira/kaira-site3.webp";
 import site4 from "../assets/images/Kaira/kaira-site4.webp";
