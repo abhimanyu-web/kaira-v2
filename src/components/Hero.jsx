@@ -4,7 +4,7 @@ import logoVideo from "../assets/vedio/kaira_logo_ved.webm";
 import background from "../assets/images/Hero-background.webp";
 import ImageSlider from "./ImageSlider";
 import Form from "./Form";
-import DC from "../assets/images/Dc_Converted.png";
+import DC from "../assets/images/DC_Converted.png";
 
 import image1 from "../assets/images/image1.webp";
 import image2 from "../assets/images/image2.webp";
