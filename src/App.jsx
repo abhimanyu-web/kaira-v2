@@ -15,7 +15,7 @@ import Welcome from './components/Welcome';
 import WhyChooseKaira from './components/Whychoosekaira';
 import WhyKaira from './components/WhyKaira';
 import WhatsAppButton from './components/WhatsAppButton';
-import LayoutandConfig from './components/LayoutandConfig1';
+import LayoutandConfig from './components/LayoutandConfig';
 import Awards from './components/awards';
 import Testimonials from './components/testimonials';
 import SocialMediaBar from './components/socialmediabar';
