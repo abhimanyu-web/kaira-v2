@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 const SocialMediaBar = () => {
   return (
@@ -11,7 +11,7 @@ const SocialMediaBar = () => {
     >
       {/* Facebook */}
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/VibezEstates/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-300 transition duration-300"
@@ -21,7 +21,7 @@ const SocialMediaBar = () => {
 
       {/* Twitter */}
       <a
-        href="https://twitter.com"
+        href="x.com/Vibezestates"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-300 transition duration-300"
@@ -29,14 +29,23 @@ const SocialMediaBar = () => {
         <FaTwitter size={22} />
       </a>
 
-      {/* LinkedIn */}
+      {/* youtube */}
       <a
-        href="https://linkedin.com"
+        href="https://www.youtube.com/channel/UCvjK6y-8a2MUEx_4Hqarjww"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-300 transition duration-300"
       >
-        <FaLinkedinIn size={22} />
+        <FaYoutube size={22} />
+      </a>
+      {/* Insta */}
+      <a
+        href="https://www.instagram.com/vibezestates/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white hover:text-blue-300 transition duration-300"
+      >
+        <FaInstagram size={22} />
       </a>
     </div>
   );
