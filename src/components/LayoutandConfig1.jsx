@@ -3,6 +3,7 @@ import { FaHome, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import bgimg from "../assets/images/experience-background.webp";
 
+
 const LayoutAndConfig = () => {
   const [selectedConfig, setSelectedConfig] = useState(null);
 

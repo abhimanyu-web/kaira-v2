@@ -15,9 +15,10 @@ import Welcome from './components/Welcome';
 import WhyChooseKaira from './components/Whychoosekaira';
 import WhyKaira from './components/WhyKaira';
 import WhatsAppButton from './components/WhatsAppButton';
-import LayoutandConfig from './components/LayoutandConfig';
+import LayoutandConfig from './components/LayoutandConfig1';
 import Awards from './components/awards';
 import Testimonials from './components/testimonials';
+import SocialMediaBar from './components/socialmediabar';
 function App() {
 
   return (
@@ -40,6 +41,7 @@ function App() {
       <Envelope />
       <Footer />
       <WhatsAppButton/>
+      <SocialMediaBar />
       
     </>
   )
