@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, } from "react-icons/fa";
 
 const SocialMediaBar = () => {
   return (
