@@ -20,7 +20,7 @@ export default function ClientReviews() {
                 backgroundImage: `url(${bgimg})`,backgroundSize: "cover",
             backgroundPosition: "center"}} >
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-4xl sm:text-6xl md:text-7xl tracking-tighter text-brown font-primary pb-4 border-b-2 border-brown-light inline-block">
+        <h2 className="text-4xl sm:text-4xl md:text-7xl tracking-tighter text-brown font-primary pb-4 border-b-2 border-brown-light inline-block">
           What Our Clients Say
         </h2>
 
