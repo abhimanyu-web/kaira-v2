@@ -80,7 +80,7 @@ export default function Welcome() {
     <img
       src={coffeeplantaions}
       alt="coffee-plantations"
-      className="w-full h-full object-contain"
+      className="w-full h-full object-cover"
     />
   </div>
 </div>
