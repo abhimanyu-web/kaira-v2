@@ -18,10 +18,17 @@ export default function Experience() {
         backgroundPosition: "center",
       }}>
       {/* Section Title */}
+<<<<<<< HEAD
       <div className='px-4 sm:px-8 md:px-12'>
         <h2 className='text-2xl sm:text-6xl md:text-6xl tracking-tighter pb-8 sm:pb-12 border-b-2 border-brown-light text-center md:text-left'>
           Few Units Left ! Book Your Site Visit Today. 
         </h2>
+=======
+      <div className='px-4 sm:px-8 md:px-16'>
+        <h1 className='text-4xl sm:text-6xl md:text-8xl tracking-tighter pb-8 sm:pb-12 border-b-2 border-brown-light text-center md:text-left'>
+          The Kaira Experience
+        </h1>
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
       </div>
 
       {/* Content Section */}

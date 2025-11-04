@@ -1,10 +1,17 @@
 import { useState, useEffect } from "react";
+<<<<<<< HEAD
 import { MapPin } from "lucide-react";
 import logoVideo from "../assets/vedio/kaira_logo_ved.webm";
 import background from "../assets/images/Hero-background.webp";
 import ImageSlider from "./ImageSlider";
 import Form from "./Form";
 import DC from "../assets/images/DC_Converted.png";
+=======
+import logoVideoWebm from "../assets/vedio/kaira_logo_ved.webm";
+import logoVideoMov from "../assets/vedio/K2.mp4";  
+import background from "../assets/images/Hero-background.webp";
+import ImageSlider from "./ImageSlider";
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 
 import image1 from "../assets/images/image1.webp";
 import image2 from "../assets/images/image2.webp";
@@ -35,12 +42,24 @@ const AnimatedImage = ({ src, alt, initialClass, finalClass, isAnimated }) => {
 };
 
 // Text Content
+<<<<<<< HEAD
+=======
+const HERO_CONTENT = [
+  {
+    h2: "Imagine mornings that smell of coffee blossoms, afternoons that echo with laughter in courtyards, and nights where the stars still put on a show.",
+    h1: "Welcome to Kaira",
+  },
+];
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 
 export default function Hero() {
   const [isAnimated, setIsAnimated] = useState(false);
   const [phase, setPhase] = useState(0);
   const [isTextVisible, setIsTextVisible] = useState(true);
+<<<<<<< HEAD
   const [isFormOpen, setIsFormOpen] = useState(false);
+=======
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 
   const images = [image1, image2, image3, image4, image5, image6, image7];
 
@@ -85,6 +104,11 @@ export default function Hero() {
   const final_BL = "bottom-[-200px] left-[40px] rotate-[35deg]";
   const final_BR = "bottom-[-200px] right-[40px] rotate-[-35deg]";
 
+<<<<<<< HEAD
+=======
+  const currentContent = HERO_CONTENT[phase % HERO_CONTENT.length];
+
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
   const textTransitionClass = `
     transition-opacity duration-700 ease-in-out
     ${isTextVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
@@ -93,6 +117,7 @@ export default function Hero() {
   return (
     <>
       <div
+<<<<<<< HEAD
         className='relative hidden md:flex flex-col items-center text-center min-h-[600px] md:min-h-[120vh] overflow-hidden px-4 md:pt-25 sm:px-10 md:px-20'
         style={{
           backgroundImage: `url(${background})`,
@@ -229,5 +254,109 @@ export default function Hero() {
         </div>
       </div>
     </>
+=======
+      className="relative hidden md:flex flex-col items-center text-center min-h-[600px] md:min-h-[120vh] overflow-hidden px-4 md:pt-25 sm:px-10 md:px-20"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Animated Images - 4 positions */}
+      <AnimatedImage
+        src={getCurrentImageSrc(0)}
+        alt="Top Left Image"
+        initialClass={initial_TL}
+        finalClass={final_TL}
+        isAnimated={isAnimated}
+      />
+      <AnimatedImage
+        src={getCurrentImageSrc(1)}
+        alt="Top Right Image"
+        initialClass={initial_TR}
+        finalClass={final_TR}
+        isAnimated={isAnimated}
+      />
+      <AnimatedImage
+        src={getCurrentImageSrc(2)}
+        alt="Bottom Left Image"
+        initialClass={initial_BL}
+        finalClass={final_BL}
+        isAnimated={isAnimated}
+      />
+      <AnimatedImage
+        src={getCurrentImageSrc(3)}
+        alt="Bottom Right Image"
+        initialClass={initial_BR}
+        finalClass={final_BR}
+        isAnimated={isAnimated}
+      />
+
+      {/* Main content */}
+      <div className={`z-10 max-w-5xl ${textTransitionClass}`}>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="h-[150px] sm:h-[200px] md:h-[300px] w-auto object-contain mx-auto"
+                >
+                  {/* Safari (HEVC) first */}
+                  <source src={logoVideoMov} type='video/mp4; codecs="hvc1"' />
+                  {/* Chrome/Firefox fallback */}
+                  <source src={logoVideoWebm} type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
+
+
+        <h2 className="font-primary text-base sm:text-xl md:text-2xl lg:text-3xl text-brown mt-4 tracking-tighter px-4 sm:px-10">
+          {currentContent.h2}
+        </h2>
+
+        <h1 className="mt-4 sm:mt-6 text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-brown font-primary font-medium tracking-tighter">
+          {currentContent.h1}
+        </h1>
+      </div>
+    </div>
+    <div style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }} className="md:hidden p-5 flex flex-col items-center">
+        <div className={`z-10 max-w-5xl ${textTransitionClass}`}>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="h-[150px] sm:h-[200px] md:h-[300px] w-auto object-contain mx-auto"
+        >
+          <source src={logoVideoWebm} type="video/webm" />
+          <source src={logoVideoMov} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div>
+          <h2 className="font-primary text-base text-center sm:text-xl md:text-2xl lg:text-3xl text-brown mt-4 tracking-tighter px-4 sm:px-10">
+          {currentContent.h2}
+        </h2>
+
+        <h1 className="mt-4 sm:mt-6 text-center text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-brown font-primary font-medium tracking-tighter">
+          {currentContent.h1}
+        </h1>
+        </div>
+        
+        <div className="max-w-[400px] overflow-clip pt-10">
+          <ImageSlider/>
+        </div>
+        
+      </div> 
+
+
+    </div>
+
+    </>
+    
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
   );
 }

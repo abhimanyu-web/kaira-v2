@@ -15,7 +15,10 @@
     "lucide-react": "^0.545.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+<<<<<<< HEAD
     "react-icons": "^5.5.0",
+=======
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
     "swiper": "^12.0.2"
   },
   "devDependencies": {
@@ -31,6 +34,10 @@
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14",
+<<<<<<< HEAD
     "vite": "^7.1.12"
+=======
+    "vite": "^7.1.7"
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
   }
 }
