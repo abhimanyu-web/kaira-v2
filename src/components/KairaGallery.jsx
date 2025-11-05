@@ -8,8 +8,13 @@ import render3 from "../assets/images/Kaira/Kaira3.webp";
 import render4 from "../assets/images/Kaira/Kaira4.webp";
 import render5 from "../assets/images/Kaira/Kaira5.webp";
 import render6 from "../assets/images/Kaira/Kaira6.webp";
+<<<<<<< HEAD
 import render7 from "../assets/images/Kaira/Kaira1.webp";
 import site1 from "../assets/images/Kaira/kaira-site1.webp";
+=======
+import render7 from "../assets/images/Kaira/Kaira7.webp";
+import site1 from "../assets/images/Kaira/Kaira1.webp";
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 import site2 from "../assets/images/Kaira/kaira-site2.webp";
 import site3 from "../assets/images/Kaira/kaira-site3.webp";
 import site4 from "../assets/images/Kaira/kaira-site4.webp";

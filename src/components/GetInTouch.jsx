@@ -1,5 +1,9 @@
 import { useState } from "react";
+<<<<<<< HEAD
 import { LandPlot, BarChart3, ShieldCheck, TrendingUp, Home } from "lucide-react";
+=======
+import { BarChart3, ShieldCheck, TrendingUp, Home } from "lucide-react";
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 import Form from "./Form";
 import bgimg from "../assets/images/experience-background.webp";
 
@@ -8,8 +12,13 @@ export default function InvestmentSection() {
 
   const highlights = [
     {
+<<<<<<< HEAD
       icon: <LandPlot className="w-10 h-10 text-brown-light" />,
       title: "₹849 per Sqft*",
+=======
+      icon: <Home className="w-10 h-10 text-brown-light" />,
+      title: "Farmplots starts from ₹84.5 Lakhs*",
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
       copy: "Own a luxurious retreat that doubles as a performing asset.",
     },
     {

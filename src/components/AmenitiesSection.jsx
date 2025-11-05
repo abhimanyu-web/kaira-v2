@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import { Wifi, Home, Star, CarFront, Cctv, Trees, HouseHeart, Baby, ShieldCheck, } from "lucide-react";
+=======
+import { Wifi, Home, Coffee, GitPullRequest, CarFront, Cctv, Trees, HouseHeart, Baby, ShieldCheck, } from "lucide-react";
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
 import bgimg from "../assets/images/experience-background.webp";
 
 const amenitiesList = [
@@ -14,9 +18,15 @@ const amenitiesList = [
     copy: "Relax, socialize, and unwind.",
   },
   {
+<<<<<<< HEAD
     icon: <Star className="w-10 h-10 text-brown-light" />,
     label: "3 Star Resort",
     copy: "Style, savor, and connect.",
+=======
+    icon: <Coffee className="w-10 h-10 text-brown-light" />,
+    label: "Café",
+    copy: "Sip, savor, and connect.",
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
   },
   {
     icon: <Cctv className="w-10 h-10 text-brown-light" />,
@@ -25,7 +35,11 @@ const amenitiesList = [
   },
   {
     icon: <Trees className="w-10 h-10 text-brown-light" />,
+<<<<<<< HEAD
     label: "40 Acres Lush Greenery",
+=======
+    label: "Plantation Trail",
+>>>>>>> 5d85878ac255a0658cf5deb25f797d708207bbc4
     copy: "Gather for events and celebrations.",
   },
   {
